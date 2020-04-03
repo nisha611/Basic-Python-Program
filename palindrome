@@ -1,0 +1,6 @@
+string=(input("enter a string: "))   # take input from the user
+if string==string[::-1]:   # using slice opeartion... [start:end:step]
+    print("the string  is palindrome: ")   # display string is palindrome
+else:
+    print("the string is not palindrome: ")  # display string is not palindrome
+ 
